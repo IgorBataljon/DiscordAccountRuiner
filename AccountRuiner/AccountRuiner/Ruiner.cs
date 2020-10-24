@@ -124,7 +124,7 @@ namespace AccountRuiner
                             var resp1 = req.Delete($"https://discord.com/api/v8/channels/{id}");
                             if (resp1.StatusCode == HttpStatusCode.OK)
                             {
-                                if(friendUsername != "Something went wrong")
+                                if(friendUsername == "Something went wrong")
                                     Console.WriteLine($"{friendUsername}");
                                 else
                                     Console.WriteLine($"DM closed with: {friendUsername}!");
