@@ -247,7 +247,7 @@ namespace AccountRuiner
                         }
                         else
                         {
-                            Console.WriteLine($"Created not server");
+                            Console.WriteLine($"Didn't create server");
                         }
                     }
                     catch (HttpException) { Console.WriteLine("Something went wrong"); }
